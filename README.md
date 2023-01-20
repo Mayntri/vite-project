@@ -3,8 +3,7 @@
 ## Why?
 > Single design system, less custom css to write and better accessibility out of the box 
 
-
-> Have a standardized way for receiving and sending data to our api. With possibilities to cache data in frontend when needed
+> Have a standardized way for receiving and sending data to our api. With possibilities to cache data in frontend when needed. Let's frontend focus on the ui insteaed of managing loading states and errors
 
 ## Frontend
 - [react SPA when possible (SEO not required?)](https://reactjs.org/)
