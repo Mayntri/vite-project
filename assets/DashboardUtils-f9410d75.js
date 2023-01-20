@@ -1,1 +1,0 @@
-import{j as s}from"./index-eb98b729.js";const r=()=>s.jsx("div",{className:"App",children:"test"});export{r as default};
