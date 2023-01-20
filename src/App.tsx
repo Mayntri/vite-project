@@ -3,11 +3,21 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.css";
 import { Welcome, Button } from "@mayntri/frontend-core";
-import { Box, Button as Button2, Slide, Typography } from "@mui/material";
+import {
+  Box,
+  Button as Button2,
+  Slide,
+  Typography,
+} from "@mui/material";
+import { useMerchants } from "@mayntri/react-sdk";
+import { Table } from "./components/Table";
 
 function App() {
   const [count, setCount] = useState(0);
   const [checked, setChecked] = useState(false);
+
+  const result = useMerchants();
+  const data = result.data?.pages[0].data || []
 
   return (
     <div className="App">
@@ -20,6 +30,13 @@ function App() {
           <Typography>test</Typography>
         </Slide>
       </Box>
+
+      <Table data={data} columns={[
+        {
+          accessorKey: "_id",
+          header: "ID",
+        },
+      ]} />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

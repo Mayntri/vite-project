@@ -13,7 +13,11 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mayntri/frontend-core": "^1.0.16",
+    "@mayntri/react-sdk": "^1.0.23",
     "@mui/material": "^5.11.5",
+    "@tanstack/react-query": "^4.22.0",
+    "@tanstack/react-table": "^8.7.6",
+    "axios": "^1.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
