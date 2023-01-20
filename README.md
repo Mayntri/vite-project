@@ -9,6 +9,7 @@
 - [react SPA when possible (SEO not required?)](https://reactjs.org/)
 - [nextjs (When SEO required)](https://nextjs.org/)
 
+[Demo](https://mayntri.github.io/vite-project)
 
 ## Frontend libraries
 - [material-ui](https://mui.com)
