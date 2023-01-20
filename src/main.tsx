@@ -8,7 +8,7 @@ import { NavigationScroll } from "./layouts/NavigationScroll";
 
 const queryClient = new QueryClient();
 
-const isHostedOnGithubPages = location.host === "github.io";
+const isHostedOnGithubPages = location.host === "mayntri.github.io";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
