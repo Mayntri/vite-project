@@ -11,7 +11,8 @@
 
 
 ## Frontend libraries
-- [material ui](https://mui.com)
+- [material-ui](https://mui.com)
+- [react-query](https://tanstack.com/query/latest)
 - [frontend-core (material ui theme and composables)](https://github.com/Mayntri/frontend-core)
 - [sdk (all api requests with axios and types)](https://github.com/Mayntri/sdk)
 - [react-sdk (uses the sdk and outputs hooks with react query inside)](https://github.com/Mayntri/react-sdk)
