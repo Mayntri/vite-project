@@ -8,11 +8,11 @@ import { NavigationScroll } from "./layouts/NavigationScroll";
 
 const queryClient = new QueryClient();
 
-const isHostedOnGithubPages = location.host !== "mayntri.github.io";
+const isHostedOnGithubPages = location.host === "mayntri.github.io";
 
 const RouterType = ({ children }: { children: React.ReactNode }) => {
   return isHostedOnGithubPages ? (
-    <HashRouter basename={isHostedOnGithubPages ? "/vite-project" : ""}>{children}</HashRouter>
+    <HashRouter>{children}</HashRouter>
   ) : (
     <BrowserRouter>{children}</BrowserRouter>
   );
