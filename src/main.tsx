@@ -12,7 +12,7 @@ const isHostedOnGithubPages = location.host !== "mayntri.github.io";
 
 const RouterType = ({ children }: { children: React.ReactNode }) => {
   return isHostedOnGithubPages ? (
-    <HashRouter>{children}</HashRouter>
+    <HashRouter basename={isHostedOnGithubPages ? "/vite-project" : ""}>{children}</HashRouter>
   ) : (
     <BrowserRouter>{children}</BrowserRouter>
   );
